@@ -6,3 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio = { version = "1.18.2", features = ["full"] }
+egg-mode = { version = "0.16", features = ["rustls_webpki"], default-features = false }
+dotenv = "0.15.0"
